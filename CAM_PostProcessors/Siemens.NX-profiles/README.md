@@ -7,7 +7,7 @@ This folder contains Siemens NX CAM post processors for the CubiFab C1 CNC machi
 | Post processor | Source folder | Use |
 | --- | --- | --- |
 | `CubifabC1-3axis` | `CubifabC1-NX-3axis` | Three-axis milling (X, Y, and Z). |
-| `CubifabC1-A-4axis` | `CubifabC1-NX-4axis` | Four-axis milling with an A-axis rotary table rotating about X. |
+| `CubifabC1-A-4axis` | `CubifabC1-NX-4axis` | Four-axis milling with an A-axis rotary axis rotating about X. |
 
 Each post processor consists of three files with the same base name:
 
@@ -77,7 +77,7 @@ Start NX and open the **Postprocess** dialog in Manufacturing. The post processo
 1. Open your CAM part in NX and switch to **Manufacturing**.
 2. Configure the machining coordinate system, tools, and operations, then generate the required toolpaths.
 3. Right-click the program or operation you want to output and select **Postprocess**.
-4. Select **CubifabC1-3axis** for three-axis machining, or **CubifabC1-A-4axis** for machining with the A-axis rotary table.
+4. Select **CubifabC1-3axis** for three-axis machining, or **CubifabC1-A-4axis** for machining with the A-axis rotary axis.
 5. Under **Output File**, choose the destination folder and enter the output filename. Use `NC` as the file extension.
 6. Leave **Units** set to **Post Defined** to use the post's default millimeter output. Other dialog labels may vary with your NX version or interface language.
 7. Click **OK** to generate the NC file.

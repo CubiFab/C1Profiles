@@ -44,6 +44,10 @@ Dialog labels may vary with the Fusion version or interface language. Autodesk a
 
 Use the following settings for XYZ three-axis machining. Review each group in the **Post Process / NC Program** dialog before posting.
 
+![Fusion 360 NC Program dialog showing the post, output settings, and post properties](imgs/f360_post_snapshot.png)
+
+The red boxes highlight **Millimeters**, **Output M6**, and **Output tool number**.  Use your own program number, file name, NC Program name, and output folder. The conditions for M6, G28, and helical moves are described below.
+
 ### NC Program Settings
 
 | Interface item | Select or enter |
@@ -58,7 +62,7 @@ Use the following settings for XYZ three-axis machining. Review each group in th
 | Publish to Fusion hub | Unchecked |
 | NC extension | `.nc` |
 | Units | **Millimeters (mm)** |
-| Open NC file in editor | Checked |
+| Open NC file in editor | Checked when you need to review the generated code |
 | Create NC Program / Name | Checked; enter a job-specific name. |
 
 ### Preferences and Safe Retracts
